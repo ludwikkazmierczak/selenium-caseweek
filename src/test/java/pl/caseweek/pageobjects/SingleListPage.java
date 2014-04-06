@@ -1,7 +1,6 @@
 package pl.caseweek.pageobjects;
 
 import org.openqa.selenium.WebElement;
-import pl.caseweek.pageobjects.listgeeks.ListGeeksElement;
 
 /**
  * This interface connected with 'single list' page functionality, prepared for CaseWeek 2014 Selenium workshop
