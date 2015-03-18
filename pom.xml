@@ -9,9 +9,9 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.6</maven.compiler.source>
-		<maven.compiler.target>1.6</maven.compiler.target>
-		<selenium.version>2.38.0</selenium.version>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+		<selenium.version>2.45.0</selenium.version>
 	</properties>
 
 	<dependencies>
@@ -36,14 +36,9 @@
 			<version>${selenium.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.2.5</version>
-		</dependency>		
-		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.7</version>
+			<version>6.8</version>
 			<scope>test</scope>
 		</dependency>		
 	</dependencies>
