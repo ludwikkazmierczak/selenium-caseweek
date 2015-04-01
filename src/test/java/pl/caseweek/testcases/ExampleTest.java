@@ -9,8 +9,7 @@ public class ExampleTest extends TestTemplate {
 
 	@Test
 	public void openCognifidePage() {
-		driver.get("http://cognifide.com");
-		Assert.assertEquals(driver.getTitle(), "Cognifide");
+		driver.get("http://wikia.com");
+		Assert.assertEquals(driver.getTitle(), "Collaborative communities for everyone!");
 	}
-
 }
